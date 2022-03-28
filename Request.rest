@@ -2,7 +2,7 @@ POST http://localhost:3000/login
 Content-Type: application/json
 
 {
-    "userId" : "rahul.mht25093@gmail.com",
+    "userId" : "aarohi@gmail.com",
     "password": "Welcome@123"
 }
 
@@ -11,27 +11,27 @@ POST http://localhost:3000/register
 Content-Type: application/json
 
 {
-    "userId" : "rahul.mht25094@gmail.com",
+    "userId" : "aarohi@gmail.com",
     "password": "Welcome@123"
 }
 
 ###
 POST http://localhost:3000/user/post
 Content-Type: application/json
-Authorization: Bearer eyJhbGciOiJIUI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VySWQiOiJyYWh1bC5taHQyNTA5M0BnbWFpbC5jb20iLCJpYXQiOjE2NDcxNzc2MTksImV4cCI6MTY0NzE3ODExOX0.6E_QnpH1koi6XSwnoYzIYTD4a0zXo5WW9A15cwXSk04 
+Authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VySWQiOiJhYXJvaGlAZ21haWwuY29tIiwiaWF0IjoxNjQ4NDg2ODQxLCJleHAiOjE2NDg0ODczNDF9.MmpdUHBtcIrquXtHUVFOJYEOHwhq3AsPazb_JnLRnsg
 
 {
-    "userId" : "rahul.mht25093@gmail.com",
-    "post": "This is my Second Post"
+    "userId" : "aarohi@gmail.com",
+    "post": "This is my First Post"
 }
 
 ###
 GET http://localhost:3000/user/post
 Content-Type: application/json
-Authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VySWQiOiJyYWh1bC5taHQyNTA5M0BnbWFpbC5jb20iLCJpYXQiOjE2NDcxNzc5NDAsImV4cCI6MTY0NzE3ODQ0MH0.9H8_jNpTGxGbT0I4dWSO_-A_-A16hYijhZipSxlixg8 
+Authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VySWQiOiJhYXJvaGlAZ21haWwuY29tIiwiaWF0IjoxNjQ4NDg2ODQxLCJleHAiOjE2NDg0ODczNDF9.MmpdUHBtcIrquXtHUVFOJYEOHwhq3AsPazb_JnLRnsg 
 
 {
-    "userId" : "rahul.mht25093@gmail.com"
+    "userId" : "aarohi@gmail.com"
 }
 ###
 
